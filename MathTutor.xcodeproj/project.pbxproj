@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5242F7E62355501300EC3D1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5242F7E52355501300EC3D1F /* AppDelegate.swift */; };
+		5242F7E82355501300EC3D1F /* MainMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5242F7E72355501300EC3D1F /* MainMenuController.swift */; };
+		5242F7EB2355501300EC3D1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5242F7E92355501300EC3D1F /* Main.storyboard */; };
+		5242F7EE2355501300EC3D1F /* MathTutor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5242F7EC2355501300EC3D1F /* MathTutor.xcdatamodeld */; };
+		5242F7F02355501400EC3D1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5242F7EF2355501400EC3D1F /* Assets.xcassets */; };
+		5242F7F32355501400EC3D1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5242F7F12355501400EC3D1F /* LaunchScreen.storyboard */; };
+		524E44B82356A9FB00463B6D /* QuizController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524E44B72356A9FB00463B6D /* QuizController.swift */; };
+		526AEAB3235819BB006E9AC3 /* MathEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526AEAB2235819BB006E9AC3 /* MathEngine.swift */; };
+		526AEAB523581B01006E9AC3 /* MathEquation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526AEAB423581B01006E9AC3 /* MathEquation.swift */; };
+		526AEAB723581B83006E9AC3 /* MathType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526AEAB623581B83006E9AC3 /* MathType.swift */; };
+		526AEAB923581ECF006E9AC3 /* AdditionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526AEAB823581ECF006E9AC3 /* AdditionEngine.swift */; };
+		526CE2B8236660AF00B7F642 /* CountdownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526CE2B7236660AF00B7F642 /* CountdownTests.swift */; };
+		526CE2BA2366610B00B7F642 /* ScoringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526CE2B92366610B00B7F642 /* ScoringTests.swift */; };
+		526CE2BC2366611E00B7F642 /* AdditionEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526CE2BB2366611E00B7F642 /* AdditionEngineTests.swift */; };
+		526CE2BE2366613200B7F642 /* SubtractionEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526CE2BD2366613200B7F642 /* SubtractionEngineTests.swift */; };
+		526CE2C02366614000B7F642 /* MultiplicationEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526CE2BF2366614000B7F642 /* MultiplicationEngineTests.swift */; };
+		526CE2C22366614D00B7F642 /* DivisionEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526CE2C12366614D00B7F642 /* DivisionEngineTests.swift */; };
+		526CE2C42366616000B7F642 /* MathEquationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526CE2C32366616000B7F642 /* MathEquationTests.swift */; };
+		5272B037235FFA43002FEF59 /* Scoreboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5272B036235FFA43002FEF59 /* Scoreboard.swift */; };
+		5272B039235FFA4D002FEF59 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5272B038235FFA4D002FEF59 /* Settings.swift */; };
+		527EA5F52356B5ED00AD5C9B /* LoadingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527EA5F42356B5ED00AD5C9B /* LoadingBar.swift */; };
+		5290C1C723616C6400E676FC /* Countdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290C1C623616C6400E676FC /* Countdown.swift */; };
+		52A603E9235D4FCD00037CC9 /* DivisionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A603E8235D4FCD00037CC9 /* DivisionEngine.swift */; };
+		52AABE672356B2F6008E5CEE /* ScoresController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AABE662356B2F6008E5CEE /* ScoresController.swift */; };
+		52AABE692356B303008E5CEE /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AABE682356B303008E5CEE /* SettingsController.swift */; };
+		52E11B80235BC42E00CFDB08 /* QuizOverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E11B7F235BC42E00CFDB08 /* QuizOverController.swift */; };
+		52E11B82235D49AB00CFDB08 /* SubtractionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E11B81235D49AB00CFDB08 /* SubtractionEngine.swift */; };
+		52E11B84235D4A8200CFDB08 /* MultiplicationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E11B83235D4A8200CFDB08 /* MultiplicationEngine.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		526CE2B22366608B00B7F642 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5242F7DA2355501300EC3D1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5242F7E12355501300EC3D1F;
+			remoteInfo = MathTutor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5242F7E22355501300EC3D1F /* MathTutor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathTutor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5242F7E52355501300EC3D1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5242F7E72355501300EC3D1F /* MainMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuController.swift; sourceTree = "<group>"; };
+		5242F7EA2355501300EC3D1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5242F7ED2355501300EC3D1F /* MathTutor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MathTutor.xcdatamodel; sourceTree = "<group>"; };
+		5242F7EF2355501400EC3D1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5242F7F22355501400EC3D1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5242F7F42355501400EC3D1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		524E44B72356A9FB00463B6D /* QuizController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizController.swift; sourceTree = "<group>"; };
+		526AEAB2235819BB006E9AC3 /* MathEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathEngine.swift; sourceTree = "<group>"; };
+		526AEAB423581B01006E9AC3 /* MathEquation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathEquation.swift; sourceTree = "<group>"; };
+		526AEAB623581B83006E9AC3 /* MathType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathType.swift; sourceTree = "<group>"; };
+		526AEAB823581ECF006E9AC3 /* AdditionEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionEngine.swift; sourceTree = "<group>"; };
+		526CE2AD2366608B00B7F642 /* MathTutorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathTutorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		526CE2B12366608B00B7F642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		526CE2B7236660AF00B7F642 /* CountdownTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownTests.swift; sourceTree = "<group>"; };
+		526CE2B92366610B00B7F642 /* ScoringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoringTests.swift; sourceTree = "<group>"; };
+		526CE2BB2366611E00B7F642 /* AdditionEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionEngineTests.swift; sourceTree = "<group>"; };
+		526CE2BD2366613200B7F642 /* SubtractionEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtractionEngineTests.swift; sourceTree = "<group>"; };
+		526CE2BF2366614000B7F642 /* MultiplicationEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplicationEngineTests.swift; sourceTree = "<group>"; };
+		526CE2C12366614D00B7F642 /* DivisionEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionEngineTests.swift; sourceTree = "<group>"; };
+		526CE2C32366616000B7F642 /* MathEquationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathEquationTests.swift; sourceTree = "<group>"; };
+		5272B036235FFA43002FEF59 /* Scoreboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scoreboard.swift; sourceTree = "<group>"; };
+		5272B038235FFA4D002FEF59 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		527EA5F42356B5ED00AD5C9B /* LoadingBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingBar.swift; sourceTree = "<group>"; };
+		5290C1C623616C6400E676FC /* Countdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countdown.swift; sourceTree = "<group>"; };
+		52A603E8235D4FCD00037CC9 /* DivisionEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionEngine.swift; sourceTree = "<group>"; };
+		52AABE662356B2F6008E5CEE /* ScoresController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresController.swift; sourceTree = "<group>"; };
+		52AABE682356B303008E5CEE /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		52E11B7F235BC42E00CFDB08 /* QuizOverController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizOverController.swift; sourceTree = "<group>"; };
+		52E11B81235D49AB00CFDB08 /* SubtractionEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtractionEngine.swift; sourceTree = "<group>"; };
+		52E11B83235D4A8200CFDB08 /* MultiplicationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplicationEngine.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5242F7DF2355501300EC3D1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526CE2AA2366608B00B7F642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5242F7D92355501300EC3D1F = {
+			isa = PBXGroup;
+			children = (
+				5242F7E42355501300EC3D1F /* MathTutor */,
+				526CE2AE2366608B00B7F642 /* MathTutorTests */,
+				5242F7E32355501300EC3D1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5242F7E32355501300EC3D1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5242F7E22355501300EC3D1F /* MathTutor.app */,
+				526CE2AD2366608B00B7F642 /* MathTutorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5242F7E42355501300EC3D1F /* MathTutor */ = {
+			isa = PBXGroup;
+			children = (
+				5290C1C423616C4E00E676FC /* Utility */,
+				52E5F01A235EB8A500DB092D /* Models */,
+				527EA5F32356B5C900AD5C9B /* Elements */,
+				5242F817235557B400EC3D1F /* Controllers */,
+				5242F8162355575D00EC3D1F /* MathEngine */,
+				5242F7E52355501300EC3D1F /* AppDelegate.swift */,
+				5242F7E92355501300EC3D1F /* Main.storyboard */,
+				5242F7EF2355501400EC3D1F /* Assets.xcassets */,
+				5242F7F12355501400EC3D1F /* LaunchScreen.storyboard */,
+				5242F7F42355501400EC3D1F /* Info.plist */,
+				5242F7EC2355501300EC3D1F /* MathTutor.xcdatamodeld */,
+			);
+			path = MathTutor;
+			sourceTree = "<group>";
+		};
+		5242F8162355575D00EC3D1F /* MathEngine */ = {
+			isa = PBXGroup;
+			children = (
+				526AEAB2235819BB006E9AC3 /* MathEngine.swift */,
+				526AEAB423581B01006E9AC3 /* MathEquation.swift */,
+				526AEAB623581B83006E9AC3 /* MathType.swift */,
+				526AEAB823581ECF006E9AC3 /* AdditionEngine.swift */,
+				52E11B81235D49AB00CFDB08 /* SubtractionEngine.swift */,
+				52E11B83235D4A8200CFDB08 /* MultiplicationEngine.swift */,
+				52A603E8235D4FCD00037CC9 /* DivisionEngine.swift */,
+			);
+			path = MathEngine;
+			sourceTree = "<group>";
+		};
+		5242F817235557B400EC3D1F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5242F7E72355501300EC3D1F /* MainMenuController.swift */,
+				524E44B72356A9FB00463B6D /* QuizController.swift */,
+				52AABE662356B2F6008E5CEE /* ScoresController.swift */,
+				52AABE682356B303008E5CEE /* SettingsController.swift */,
+				52E11B7F235BC42E00CFDB08 /* QuizOverController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		526CE2AE2366608B00B7F642 /* MathTutorTests */ = {
+			isa = PBXGroup;
+			children = (
+				526CE2C32366616000B7F642 /* MathEquationTests.swift */,
+				526CE2C12366614D00B7F642 /* DivisionEngineTests.swift */,
+				526CE2BF2366614000B7F642 /* MultiplicationEngineTests.swift */,
+				526CE2BD2366613200B7F642 /* SubtractionEngineTests.swift */,
+				526CE2BB2366611E00B7F642 /* AdditionEngineTests.swift */,
+				526CE2B92366610B00B7F642 /* ScoringTests.swift */,
+				526CE2B7236660AF00B7F642 /* CountdownTests.swift */,
+				526CE2B12366608B00B7F642 /* Info.plist */,
+			);
+			path = MathTutorTests;
+			sourceTree = "<group>";
+		};
+		527EA5F32356B5C900AD5C9B /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				527EA5F42356B5ED00AD5C9B /* LoadingBar.swift */,
+			);
+			path = Elements;
+			sourceTree = "<group>";
+		};
+		5290C1C423616C4E00E676FC /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				5290C1C623616C6400E676FC /* Countdown.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		52E5F01A235EB8A500DB092D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5272B036235FFA43002FEF59 /* Scoreboard.swift */,
+				5272B038235FFA4D002FEF59 /* Settings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5242F7E12355501300EC3D1F /* MathTutor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5242F80D2355501400EC3D1F /* Build configuration list for PBXNativeTarget "MathTutor" */;
+			buildPhases = (
+				5242F7DE2355501300EC3D1F /* Sources */,
+				5242F7DF2355501300EC3D1F /* Frameworks */,
+				5242F7E02355501300EC3D1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MathTutor;
+			productName = MathTutor;
+			productReference = 5242F7E22355501300EC3D1F /* MathTutor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		526CE2AC2366608B00B7F642 /* MathTutorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 526CE2B42366608B00B7F642 /* Build configuration list for PBXNativeTarget "MathTutorTests" */;
+			buildPhases = (
+				526CE2A92366608B00B7F642 /* Sources */,
+				526CE2AA2366608B00B7F642 /* Frameworks */,
+				526CE2AB2366608B00B7F642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				526CE2B32366608B00B7F642 /* PBXTargetDependency */,
+			);
+			name = MathTutorTests;
+			productName = MathTutorTests;
+			productReference = 526CE2AD2366608B00B7F642 /* MathTutorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5242F7DA2355501300EC3D1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = JohnBonham;
+				TargetAttributes = {
+					5242F7E12355501300EC3D1F = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					526CE2AC2366608B00B7F642 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 5242F7E12355501300EC3D1F;
+					};
+				};
+			};
+			buildConfigurationList = 5242F7DD2355501300EC3D1F /* Build configuration list for PBXProject "MathTutor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5242F7D92355501300EC3D1F;
+			productRefGroup = 5242F7E32355501300EC3D1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5242F7E12355501300EC3D1F /* MathTutor */,
+				526CE2AC2366608B00B7F642 /* MathTutorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5242F7E02355501300EC3D1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5242F7F32355501400EC3D1F /* LaunchScreen.storyboard in Resources */,
+				5242F7F02355501400EC3D1F /* Assets.xcassets in Resources */,
+				5242F7EB2355501300EC3D1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526CE2AB2366608B00B7F642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5242F7DE2355501300EC3D1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52AABE672356B2F6008E5CEE /* ScoresController.swift in Sources */,
+				526AEAB723581B83006E9AC3 /* MathType.swift in Sources */,
+				524E44B82356A9FB00463B6D /* QuizController.swift in Sources */,
+				5272B039235FFA4D002FEF59 /* Settings.swift in Sources */,
+				52E11B84235D4A8200CFDB08 /* MultiplicationEngine.swift in Sources */,
+				5290C1C723616C6400E676FC /* Countdown.swift in Sources */,
+				5242F7E82355501300EC3D1F /* MainMenuController.swift in Sources */,
+				52E11B80235BC42E00CFDB08 /* QuizOverController.swift in Sources */,
+				526AEAB3235819BB006E9AC3 /* MathEngine.swift in Sources */,
+				52AABE692356B303008E5CEE /* SettingsController.swift in Sources */,
+				5242F7EE2355501300EC3D1F /* MathTutor.xcdatamodeld in Sources */,
+				5242F7E62355501300EC3D1F /* AppDelegate.swift in Sources */,
+				526AEAB523581B01006E9AC3 /* MathEquation.swift in Sources */,
+				52A603E9235D4FCD00037CC9 /* DivisionEngine.swift in Sources */,
+				52E11B82235D49AB00CFDB08 /* SubtractionEngine.swift in Sources */,
+				526AEAB923581ECF006E9AC3 /* AdditionEngine.swift in Sources */,
+				527EA5F52356B5ED00AD5C9B /* LoadingBar.swift in Sources */,
+				5272B037235FFA43002FEF59 /* Scoreboard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526CE2A92366608B00B7F642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526CE2C22366614D00B7F642 /* DivisionEngineTests.swift in Sources */,
+				526CE2BE2366613200B7F642 /* SubtractionEngineTests.swift in Sources */,
+				526CE2BC2366611E00B7F642 /* AdditionEngineTests.swift in Sources */,
+				526CE2BA2366610B00B7F642 /* ScoringTests.swift in Sources */,
+				526CE2C42366616000B7F642 /* MathEquationTests.swift in Sources */,
+				526CE2B8236660AF00B7F642 /* CountdownTests.swift in Sources */,
+				526CE2C02366614000B7F642 /* MultiplicationEngineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		526CE2B32366608B00B7F642 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5242F7E12355501300EC3D1F /* MathTutor */;
+			targetProxy = 526CE2B22366608B00B7F642 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5242F7E92355501300EC3D1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5242F7EA2355501300EC3D1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5242F7F12355501400EC3D1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5242F7F22355501400EC3D1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5242F80B2355501400EC3D1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5242F80C2355501400EC3D1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5242F80E2355501400EC3D1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MathTutor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JohnBonham.MathTutor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5242F80F2355501400EC3D1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MathTutor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JohnBonham.MathTutor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		526CE2B52366608B00B7F642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MathTutorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JohnBonham.MathTutorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MathTutor.app/MathTutor";
+			};
+			name = Debug;
+		};
+		526CE2B62366608B00B7F642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MathTutorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JohnBonham.MathTutorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MathTutor.app/MathTutor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5242F7DD2355501300EC3D1F /* Build configuration list for PBXProject "MathTutor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5242F80B2355501400EC3D1F /* Debug */,
+				5242F80C2355501400EC3D1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5242F80D2355501400EC3D1F /* Build configuration list for PBXNativeTarget "MathTutor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5242F80E2355501400EC3D1F /* Debug */,
+				5242F80F2355501400EC3D1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		526CE2B42366608B00B7F642 /* Build configuration list for PBXNativeTarget "MathTutorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526CE2B52366608B00B7F642 /* Debug */,
+				526CE2B62366608B00B7F642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5242F7EC2355501300EC3D1F /* MathTutor.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5242F7ED2355501300EC3D1F /* MathTutor.xcdatamodel */,
+			);
+			currentVersion = 5242F7ED2355501300EC3D1F /* MathTutor.xcdatamodel */;
+			path = MathTutor.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5242F7DA2355501300EC3D1F /* Project object */;
+}
